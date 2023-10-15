@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0;  /* Remove vertical scrollbar */
+  height: 0; /* Remove horizontal scrollbar */
+}
+
+/* Optional: Style the track and thumb for webkit-based browsers */
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Transparent thumb */
+}
