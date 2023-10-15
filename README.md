@@ -7,3 +7,5 @@
 
 
 Demo- https://instamart-assignment.netlify.app/
+
+You can change Data used in assets folder
